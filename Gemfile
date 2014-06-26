@@ -46,4 +46,4 @@ end
 
 gem 'spree', '2.1.0'
 gem 'spree_auth_devise', github: 'spree/spree_auth_devise', branch: '2-1-stable'
-gem 'spree_loyalty_points', path: '../../slp_versions/slp03062014' 
+gem 'spree_loyalty_points', github: 'vinsol/spree_loyalty_points', branch: '2-1-changes' 
