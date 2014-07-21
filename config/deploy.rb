@@ -1,5 +1,6 @@
 require "bundler/capistrano"
 # for multiple enviroments
+require "whenever/capistrano"
 require 'capistrano/ext/multistage'
 
 set :repository,  "git@github.com:jatin-baweja/spree_loyalty_points_demo.git"
